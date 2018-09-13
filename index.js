@@ -44,10 +44,7 @@ function removeFromCart(item) {
       cart = cart.splice(i,1);
     }
     return cart;
-    else{
-      return ("That item is not in your cart.");
-    }
-    }
+}
 }
 
 
