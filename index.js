@@ -40,7 +40,6 @@ return t;
 
 function removeFromCart(item) {
   var repeat = "";
-  var new_array = [];
   for (var i = 0; i < cart.length; i++){
     if (item === cart[i]){
       repeat = item;
@@ -48,7 +47,7 @@ function removeFromCart(item) {
     }
   }
   if (repeat.length > 0){
-    return new_array;
+    return cart;
   }else{
     return("That item is not in your cart.");
   } 
