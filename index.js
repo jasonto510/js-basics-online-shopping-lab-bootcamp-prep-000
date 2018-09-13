@@ -48,8 +48,8 @@ function removeFromCart(item) {
   }
   if (repeat.length === 0){
     return("That item is not in your cart.");
+
     
-    return cart;
   }else{
     return cart;
   } 
