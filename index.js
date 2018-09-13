@@ -45,9 +45,12 @@ function removeFromCart(item) {
       repeat = item;
     }
   }
-  if repeat.length > 0{
-    
-  }
+  if (repeat.length > 0){
+    return cart.splite(i,1);
+  }else{
+    return("That item is not in your cart.");
+  } 
+  
 }
 /*    if (item === cart[i]){
       cart = cart.splice(i,1);
