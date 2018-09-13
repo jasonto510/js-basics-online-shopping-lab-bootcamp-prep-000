@@ -45,7 +45,9 @@ function removeFromCart(item) {
       repeat = item;
     }
   }
-  if 
+  if repeat.length > 0{
+    
+  }
 }
 /*    if (item === cart[i]){
       cart = cart.splice(i,1);
