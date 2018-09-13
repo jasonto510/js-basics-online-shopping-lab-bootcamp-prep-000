@@ -43,9 +43,9 @@ function removeFromCart(item) {
   for (var i = 0; i < cart.length; i++){
     if (item === cart[i]){
       repeat = item;
-      
     }
   }
+  if 
 }
 /*    if (item === cart[i]){
       cart = cart.splice(i,1);
