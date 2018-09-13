@@ -42,12 +42,13 @@ function removeFromCart(item) {
   for (var i = 0; i < cart.length; i++){
     if (item === cart[i]){
       cart = cart.splice(i,1);
-      return cart;
-    }else if{
+ /*   }else if{
       return ("That item is not in your cart.");
+    }*/
     }
-    }
+     return cart;
 }
+
 
 
 function placeOrder(cardNumber) {
