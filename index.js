@@ -70,6 +70,6 @@ function placeOrder(cardNumber) {
    }else{
      var empty_cart = [];
      cart = empty_cart;
-     return (`Your total cost is $${total}, which will be charged to your ${cardNumber}`);
+     return (`Your total cost is $${total()}, which will be charged to your ${cardNumber}`);
 }
 }
