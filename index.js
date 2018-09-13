@@ -42,7 +42,7 @@ function removeFromCart(item) {
   for (var i = 0; i < cart.length; i++){
     if (item === cart[i]){
       cart.splice(i,1);
-      return cart[i];
+      return cart;
     }else{
       return ("That item is not in your cart.");
     }
