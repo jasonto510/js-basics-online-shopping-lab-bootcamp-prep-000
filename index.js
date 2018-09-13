@@ -27,7 +27,6 @@ function viewCart() {
   for (var i = 0; i < cart.length ; i ++){
   }
   }
-  
 }
 
 function total() {
