@@ -39,16 +39,22 @@ return t;
 }
 
 function removeFromCart(item) {
+  repeat = "";
   for (var i = 0; i < cart.length; i++){
     if (item === cart[i]){
+      repeat = item;
+    }
+  }
+}
+/*    if (item === cart[i]){
       cart = cart.splice(i,1);
- /*   }else if{
+    }else if{
       return ("That item is not in your cart.");
-    }*/
+    }
     }
   }
   return cart;
-}
+}*/
 
 
 
