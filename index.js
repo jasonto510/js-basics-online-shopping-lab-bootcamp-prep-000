@@ -25,15 +25,14 @@ function viewCart() {
   } else{
     var MyCart = (`In your cart, you have `);
   for (var i = 0; i < cart.length ; i ++){
-            for(var list in cart[i]){
-            MyCart+=`${list} at $${cart[i][list]}`;
-                if(i!==cart.length-1){
-                  MyCart+=", ";
-                }
-                else{
-                  MyCart+=".";
-                }
-              }    
+    for(var list in cart[i]){
+      MyCart+=`${list} at $${cart[i][list]}`;
+      if(i!==cart.length-1){
+        MyCart+=", ";
+      }else{
+        MyCart+=".";
+      }
+    }    
   }
   return MyCart
   }
