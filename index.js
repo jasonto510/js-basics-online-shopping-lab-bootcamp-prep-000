@@ -40,11 +40,7 @@ function viewCart() {
 
 
          
-  
-  
-    return (`${MyCart} )
-  }
-}
+
 
 function total() {
   var t = 0;
