@@ -42,7 +42,11 @@ function removeFromCart(item) {
   // write your code here
   for (var i = 0; i < cart.length; i++){
     if (item == cart[i]){
-       
+      delete cart[i];
+      return cart;
+    }else{
+      return ("That item is not in your cart.");
+    }
       
     }
   }
