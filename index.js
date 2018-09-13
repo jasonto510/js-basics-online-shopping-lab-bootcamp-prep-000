@@ -25,8 +25,22 @@ function viewCart() {
   } else{
     var MyCart = (`In your cart, you have `);
   for (var i = 0; i < cart.length ; i ++){
-    
+            for(var list in cart[i]){
+            myString+=`${list} at $${cart[i][list]}`;
+                if(i!==cart.length-1){
+                  myString+=", ";
+                }
+                else{
+                  myString+=".";
+                }
+              }    
   }
+  }
+}
+
+
+         
+  
   
     return (`${MyCart} )
   }
